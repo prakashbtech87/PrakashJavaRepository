@@ -11,6 +11,7 @@ public class ArrayDemo {
 
 		for (int ii : arr) {
 			System.out.println(ii);
+			System.out.println(ii);
 		}
 
 	}
