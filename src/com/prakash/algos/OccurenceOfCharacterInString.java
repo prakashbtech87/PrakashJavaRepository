@@ -27,6 +27,7 @@ public class OccurenceOfCharacterInString {
 
 	public static void main(String[] args) {
 		OccurenceOfCharacterInString.charCount("Java");
+		System.out.println("End Of Main");
 	}
 
 }
