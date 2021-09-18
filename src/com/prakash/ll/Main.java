@@ -33,6 +33,12 @@ public class Main {
 		list.addAtIndex(0, zero);
 		list.printList();
 		System.out.println(list.getListSize());
+		list.removeFromFront();
+		System.out.println("After Front Removed");
+		list.printList();
+		list.deleteAtIndex(1);
+		System.out.println("After Delte Removed");
+		list.printList();
 
 	}
 
