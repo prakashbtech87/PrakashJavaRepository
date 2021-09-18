@@ -80,4 +80,19 @@ public class LinkedList {
 		return head == null;
 	}
 
+	public void deleteAtIndex(int idx) {
+
+		if (idx == 0) {
+			head = head.next;
+
+		} else {
+
+			Node node = head;
+			for (int i = 0; i < idx - 1; i++) {
+				node = node.next;
+			}
+			node.next = node.next.next;
+
+		}
+	}
 }
