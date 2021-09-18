@@ -23,10 +23,13 @@ public class LinkedList {
 				n = n.getNext();
 			}
 			n.setNext(node);
-			node.setNext(null);
 		}
 
 		size++;
+	}
+
+	public int getListSize() {
+		return size;
 	}
 
 	public void printList() {
