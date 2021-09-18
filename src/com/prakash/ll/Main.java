@@ -14,7 +14,7 @@ public class Main {
 		Employee seven = new Employee("seven", "", 7);
 
 		LinkedList list = new LinkedList();
-		System.out.println(list.getListSize());
+		System.out.println(list.getListSize()); 
 		list.addToFront(four);
 		list.addToFront(three);
 		list.addToFront(two);

@@ -6,7 +6,7 @@ public class Employee {
 
 	private String firstName;
 	private String lastName;
-	private int id;
+	private int id; 
 
 	public Employee(String firstName, String lastName, int id) {
 		super();

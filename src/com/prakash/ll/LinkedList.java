@@ -2,7 +2,7 @@ package com.prakash.ll;
 
 public class LinkedList {
 
-	private Node head;
+	private Node head; 
 	int size;
 
 	public void addToFront(Employee employee) {
