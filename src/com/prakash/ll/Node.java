@@ -11,7 +11,7 @@ public class Node {
 	}
 
 	public Employee getEmployee() {
-		return employee;
+		return employee; 
 	}
 
 	public void setEmployee(Employee employee) {

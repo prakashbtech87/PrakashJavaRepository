@@ -2,7 +2,7 @@ package com.prakash.ll;
 
 public class LinkedList {
 
-	private Node head;
+	private Node head; 
 	int size;
 
 	public void addToFront(Employee employee) {
@@ -23,10 +23,13 @@ public class LinkedList {
 				n = n.getNext();
 			}
 			n.setNext(node);
-			node.setNext(null);
 		}
 
 		size++;
+	}
+
+	public int getListSize() {
+		return size;
 	}
 
 	public void printList() {
