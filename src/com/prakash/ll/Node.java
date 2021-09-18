@@ -2,8 +2,8 @@ package com.prakash.ll;
 
 public class Node {
 
-	private Employee employee;
-	private Node next;
+	public Employee employee;
+	public Node next;
 
 	public Node(Employee employee) {
 		super();
