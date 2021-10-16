@@ -7,8 +7,8 @@ public class MyStack {
 	private static Node first = null;
 	static MyStack stack = new MyStack();
 
-	public static void push(int n) {
-		Node newNode = new Node(n); 
+	public static void push(int value) {
+		Node newNode = new Node(value); 
 		newNode.next = first;
 		first = newNode;
 	}
@@ -33,6 +33,7 @@ public class MyStack {
 
 	}
 
+	@SuppressWarnings("static-access")
 	private static void printStack(MyStack stack) {
 		Node currentNode = stack.first;
 		System.out.println("The Stack contains at" + LocalDateTime.now());
