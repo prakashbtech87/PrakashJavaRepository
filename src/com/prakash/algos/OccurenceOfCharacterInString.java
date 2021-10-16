@@ -16,7 +16,7 @@ public class OccurenceOfCharacterInString {
 			if (charCountMap.containsKey(c)) {
 				charCountMap.put(c, charCountMap.get(c) + 1);
 			} else {
-				charCountMap.put(c, 1);//adding fresh
+				charCountMap.put(c, 1);//adding fresh 111
 			}
 
 		}
