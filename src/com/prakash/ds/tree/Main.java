@@ -14,13 +14,19 @@ public class Main {
 		intTree.insert(26);
 		intTree.insert(22);
 		intTree.insert(32);
+		intTree.insert(17);
 		intTree.traverseInOrder();
 		System.out.println();
-		System.out.println("in get 027 :" + intTree.get(27));
-		System.out.println("in get 988 :" + intTree.get(988));
-		System.out.println("in get 020 :" + intTree.get(20));
-		System.out.println("MIN :" + intTree.min());
-		System.out.println("MAX :" + intTree.max());
+		/*
+		 * System.out.println("in get 027 :" + intTree.get(27));
+		 * System.out.println("in get 988 :" + intTree.get(988));
+		 * System.out.println("in get 020 :" + intTree.get(20));
+		 * System.out.println("MIN :" + intTree.min()); System.out.println("MAX :" +
+		 * intTree.max()); 
+		 */
+		intTree.delete(888);
+		//intTree.delete(15);
+		intTree.traverseInOrder();
 	}
 
 }
