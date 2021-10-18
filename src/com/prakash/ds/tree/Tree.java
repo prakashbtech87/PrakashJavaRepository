@@ -40,7 +40,7 @@ public class Tree {
 			subTreeRoot.setRightChild(delete(subTreeRoot.getRightChild(), value));
 		} else {
 			// Cases 1 and 2 node to delete has 0 or 1 child(ren)
-			if (subTreeRoot.getRightChild() == null) {
+			if (subTreeRoot.getLeftChild() == null) {
 				return subTreeRoot.getRightChild();
 			} else if (subTreeRoot.getRightChild() == null) {
 				return subTreeRoot.getLeftChild();
