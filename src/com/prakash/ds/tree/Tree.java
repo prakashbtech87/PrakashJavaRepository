@@ -45,21 +45,14 @@ public class Tree {
 			} else if (subTreeRoot.getRightChild() == null) {
 				return subTreeRoot.getLeftChild();
 			}
-			
-			//Case 3 : Node to delete has 2 children
-			//Replace the value in the subTreeRoot node with the smallest value
-			//from the right subtree
+
+			// Case 3 : Node to delete has 2 children
+			// Replace the value in the subTreeRoot node with the smallest value
+			// from the right subtree
 			subTreeRoot.setData(subTreeRoot.getRightChild().min());
-			
-			//Delete the node that has the smallest value in the right subtree
+
+			// Delete the node that has the smallest value in the right subtree
 			subTreeRoot.setRightChild(delete(subTreeRoot.getRightChild(), subTreeRoot.getData()));
-			
-			
-			
-			
-			
-			
-			
 		}
 		return subTreeRoot;
 	}
