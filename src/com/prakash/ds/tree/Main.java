@@ -11,21 +11,15 @@ public class Main {
 		intTree.insert(27);
 		intTree.insert(30);
 		intTree.insert(29);
+		intTree.insert(88);
 		intTree.insert(26);
 		intTree.insert(22);
 		intTree.insert(32);
 		intTree.insert(17);
+		System.out.println("Printing content of tree");
 		intTree.traverseInOrder();
-		System.out.println();
-		/*
-		 * System.out.println("in get 027 :" + intTree.get(27));
-		 * System.out.println("in get 988 :" + intTree.get(988));
-		 * System.out.println("in get 020 :" + intTree.get(20));
-		 * System.out.println("MIN :" + intTree.min()); System.out.println("MAX :" +
-		 * intTree.max()); 
-		 */
-		intTree.delete(888);
-		//intTree.delete(15);
+		System.out.println("\nPrinting content of tree after deleting 88");
+		intTree.delete(88);
 		intTree.traverseInOrder();
 	}
 
