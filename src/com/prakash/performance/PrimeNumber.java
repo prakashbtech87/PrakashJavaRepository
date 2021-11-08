@@ -38,7 +38,7 @@ public class PrimeNumber {
 
 	public static void main(String[] args) throws InterruptedException {
 		PrimeNumber primeNumbers = new PrimeNumber();
-		Integer max = Integer.parseInt("30");
+		Integer max = Integer.parseInt("100");
 		Date start = new Date();
 		primeNumbers.generateNumbers(max);
 		Date end = new Date();
