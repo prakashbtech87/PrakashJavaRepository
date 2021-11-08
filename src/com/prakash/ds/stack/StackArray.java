@@ -53,6 +53,7 @@ public class StackArray {
 		s.push(2);
 		s.push(3);
 		s.printStack();
+		System.out.println("Poping one item from stack...");
 		s.pop();
 		s.printStack();
 
