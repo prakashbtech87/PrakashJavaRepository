@@ -1,8 +1,6 @@
 package com.prakash.designpatterns.singleton;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 //make this class as Singleton
 class MyClass implements Serializable, Cloneable {
@@ -49,10 +47,11 @@ class MyClass implements Serializable, Cloneable {
 
 public class MySingleton {
 	public static void main(String[] args) {
-		ArrayList<Integer> numbers = (ArrayList<Integer>) Arrays.asList(1, 3, 5, 7, 8, 10, 15, 24, 25, 36, 45, 100, 101,
-				202);
-		// please print only even numbers which are divisble by 5 using JAVA 8 STREAMS
-		// API
 
+		MyClass obj1 = MyClass.getInstance();
+		MyClass obj2 = MyClass.getInstance();
+		System.out.println(obj1==obj2);
+		
+		
 	}
 }
