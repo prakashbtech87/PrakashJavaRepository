@@ -1,4 +1,4 @@
-package com.prakash.javacoding.JavaCodingRepo;
+package com.prakash.javacoding;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
