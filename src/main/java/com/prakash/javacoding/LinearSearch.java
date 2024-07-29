@@ -12,7 +12,7 @@ public class LinearSearch {
         }
     }
 
-    private static int linearSearch(int[] a, int num) {
+    private static int linearSearch(int[] a, int num ) {
         for (int index = 0; index < a.length; index++) {
             if (num == a[index]) {
                 return index;
