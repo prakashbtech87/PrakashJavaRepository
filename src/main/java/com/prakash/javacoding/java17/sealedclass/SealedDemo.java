@@ -22,10 +22,10 @@ final class Circle implements Shape {
 }
 
 final class Rectangle implements Shape {
+    double length, breadth;
 
     @Override
     public double area() {
-        double length = 10, breadth = 15;
         return length * breadth;
     }
 }
