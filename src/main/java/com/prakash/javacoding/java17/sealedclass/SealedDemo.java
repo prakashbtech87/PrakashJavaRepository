@@ -26,7 +26,7 @@ final class Rectangle implements Shape {
 
     @Override
     public double area() {
-        return length * breadth;
+        return length * breadth; //
     }
 }
 
