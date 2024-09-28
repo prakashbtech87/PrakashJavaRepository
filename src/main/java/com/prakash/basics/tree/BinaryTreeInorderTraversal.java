@@ -1,4 +1,4 @@
-package com.prakash.javacoding.tree;
+package com.prakash.basics.tree;
 
 /**
  * @author prakashkaruppusamy

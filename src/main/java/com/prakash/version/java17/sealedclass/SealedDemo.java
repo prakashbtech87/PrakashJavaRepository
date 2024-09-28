@@ -1,4 +1,4 @@
-package com.prakash.javacoding.java17.sealedclass;
+package com.prakash.version.java17.sealedclass;
 
 /**
  * @author prakashkaruppusamy
