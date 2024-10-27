@@ -4,16 +4,25 @@
 package com.prakash.datastructure.javapatterns;
 
 /**
- * This program prints an inverted pyramid pattern of asterisks ('*').
- * The pattern reduces in width with each row and centers the stars by balancing spaces on both sides.
+ * This class demonstrates printing a symmetric, inverted pyramid pattern of asterisks ('*').
+ * The pattern starts as a regular pyramid and then inverts.
+ * Each row reduces the width of stars while maintaining symmetry with spaces.
  *
- * <p>Example output for n = 5:
+ * <p>Example output for n = 5:</p>
+ * <pre>
+ *     *
+ *    ***
+ *   *****
+ *  *******
  * *********
- * *******
- * *****
- * ***
- * *
- * </p>
+ * *********
+ *  *******
+ *   *****
+ *    ***
+ *     *
+ * </pre>
+ *
+ * <p>This output pattern uses two sections: the first builds the pyramid, and the second inverts it.</p>
  *
  * @author Prakash Karuppusamy
  */
@@ -25,56 +34,57 @@ public class Pattern9 {
      * @param args Command-line arguments (not used in this program).
      */
     public static void main(String[] args) {
-        printPattern(5); // Adjust the value to modify the pyramid size
+        printPattern(5); // Modify the parameter to change the size of the pyramid
     }
 
     /**
-     * Prints an inverted pyramid pattern based on the specified size.
+     * Prints a symmetric inverted pyramid pattern based on the specified size.
      *
-     * @param n the number of rows for the inverted pyramid pattern
+     * @param n the number of rows for each section of the pyramid pattern.
      */
     public static void printPattern(int n) {
 
-        // Loop through each row
+        // First part: builds the pyramid from top to bottom
         for (int i = 0; i < n; i++) {
 
-            // Print spaces on the left side of the pyramid
+            // Print leading spaces to align the stars
             for (int j = 0; j < n - i - 1; j++) {
                 System.out.print(" ");
             }
 
-            // Print stars in the middle section of the pyramid
+            // Print stars in the current row
             for (int j = 0; j < (2 * i + 1); j++) {
                 System.out.print("*");
             }
 
-            // Print spaces on the right side of the pyramid (optional for symmetry)
+            // Optional trailing spaces for alignment (not visible, but maintains symmetry)
             for (int j = 0; j < n - i - 1; j++) {
                 System.out.print(" ");
             }
 
-            // Move to the next line after completing a row
+            // Move to the next line for the next row
             System.out.println();
         }
-        // Loop over each row for the inverted pyramid
+
+        // Second part: creates the inverted pyramid from top to bottom
         for (int i = 0; i < n; i++) {
 
-            // Print leading spaces to position stars centrally
+            // Print leading spaces to align the stars centrally
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
 
-            // Print stars for the inverted pyramid row
+            // Print stars in decreasing order for each row
             for (int j = 0; j < (2 * n - (2 * i + 1)); j++) {
                 System.out.print("*");
             }
 
-            // Print trailing spaces to balance the pyramid (optional)
+            // Optional trailing spaces for alignment
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
 
-            // Move to the next line after each row
+            // Move to the next line for the next row
             System.out.println();
         }
     }
