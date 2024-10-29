@@ -7,7 +7,7 @@ package com.prakash.datastructure.javapatterns;
  * The pattern consists of numbers increasing from 1 to the current row number,
  * followed by spaces, and then numbers decreasing back to 1.
  */
-public class Pattern11 {
+public class Pattern12 {
 
     public static void main(String[] args) {
         // Call the method to print the pattern with 5 rows
