@@ -1,4 +1,4 @@
-package com.prakash.a2zdsa;
+package com.prakash.a2zdsa.maths;
 
 /**
  * This program calculates the sum of all divisors of integers from 1 to a given number `n`.

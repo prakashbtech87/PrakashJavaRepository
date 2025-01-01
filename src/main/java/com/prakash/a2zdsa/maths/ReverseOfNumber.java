@@ -1,4 +1,4 @@
-package com.prakash.a2zdsa;
+package com.prakash.a2zdsa.maths;
 
 import java.util.Scanner;
 

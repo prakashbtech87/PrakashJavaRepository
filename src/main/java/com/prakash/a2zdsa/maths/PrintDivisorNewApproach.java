@@ -1,4 +1,4 @@
-package com.prakash.a2zdsa;
+package com.prakash.a2zdsa.maths;
 
 import java.util.Scanner; // Import Scanner class for user input
 import java.util.Set; // Import Set interface for storing unique values

@@ -1,4 +1,4 @@
-package com.prakash.a2zdsa; // Package declaration
+package com.prakash.a2zdsa.maths; // Package declaration
 
 import java.util.Scanner; // Importing Scanner class to read user input
 
