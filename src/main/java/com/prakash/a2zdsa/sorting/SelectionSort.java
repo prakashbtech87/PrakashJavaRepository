@@ -7,9 +7,9 @@ public class SelectionSort {
     // Method to perform selection sort
     public static void selectionSort(int[] arr) {
         int n = arr.length; // Get the length of the array
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i <= n - 2; i++) {
             int minIndex = i; // Assume the current index is the smallest
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i; j <= n - 1; j++) {
                 if (arr[j] < arr[minIndex]) {
                     minIndex = j; // Update minIndex if a smaller element is found
                 }
