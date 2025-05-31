@@ -1,4 +1,4 @@
-package com.prakash.striver_sde;
+package com.prakash.striver_sde.setmatrixtozero;
 
 import java.util.*;
 
