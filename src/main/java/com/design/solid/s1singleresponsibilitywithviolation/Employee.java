@@ -1,4 +1,4 @@
-package com.design.solid.s2singleresponsibilitywithviolation;
+package com.design.solid.s1singleresponsibilitywithviolation;
 
 /**
  * @author prakashkaruppusamy
