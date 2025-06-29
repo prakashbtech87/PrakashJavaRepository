@@ -1,9 +1,9 @@
-package com.prakash.practice;
+package com.prakash.leetcode.neetcode150;
 
 /**
  * @author prakashkaruppusamy
  */
-public class CharArrayExampleAnagram {
+public class Neetcode_01_ValidAnagram {
 
 
     public static boolean isAnagram(String leftStr, String rightStr) {
