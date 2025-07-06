@@ -3,7 +3,7 @@ package com.prakash.leetcode.neetcode150;
 /**
  * @author prakashkaruppusamy
  */
-public class Neetcode_01_ValidAnagram {
+public class Neetcode_02_ValidAnagram {
 
 
     public static boolean isAnagram(String leftStr, String rightStr) {
